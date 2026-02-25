@@ -18,9 +18,7 @@ export function getLLMClient(): OpenAI {
     config = getLLMConfig();
   }
   if (provider !== "ollama" && !config.apiKey) {
-    throw new Error(
-      "未配置大模型 API Key。请在项目根目录 .env 中设置 LLM_PROVIDER（如 deepseek）及对应 Key（如 DEEPSEEK_API_KEY）。"
-    );
+    throw new Error("服务暂时不可用，请稍后重试");
   }
   cachedClient = new OpenAI({
     baseURL: config.baseURL,

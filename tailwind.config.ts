@@ -22,6 +22,7 @@ const config: Config = {
       },
       backgroundImage: {
         "gradient-primary": "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)",
+        "gradient-commerce": "linear-gradient(135deg, #f97316 0%, #ec4899 100%)",
         "gradient-glow": "radial-gradient(600px circle at var(--glow-x, 50%) var(--glow-y, 50%), rgba(99, 102, 241, 0.15), transparent 40%)",
       },
       animation: {

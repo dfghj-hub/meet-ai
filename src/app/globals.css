@@ -11,7 +11,7 @@
   }
 
   ::selection {
-    background: rgba(99, 102, 241, 0.3);
+    background: rgba(249, 115, 22, 0.3);
   }
 }
 
@@ -34,11 +34,11 @@
   }
 
   .btn-primary {
-    @apply relative overflow-hidden rounded-xl bg-gradient-primary px-6 py-3 font-heading text-sm font-semibold text-white shadow-lg transition-all duration-300;
-    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+    @apply relative overflow-hidden rounded-xl bg-gradient-commerce px-6 py-3 font-heading text-sm font-semibold text-white shadow-lg transition-all duration-300;
+    box-shadow: 0 4px 16px rgba(249, 115, 22, 0.3);
   }
   .btn-primary:hover:not(:disabled) {
-    box-shadow: 0 6px 24px rgba(99, 102, 241, 0.5);
+    box-shadow: 0 6px 24px rgba(249, 115, 22, 0.5);
     transform: translateY(-1px);
   }
   .btn-primary:disabled {
@@ -56,7 +56,7 @@
   }
 
   .input-glass {
-    @apply w-full rounded-xl border border-surface-border bg-surface p-4 text-gray-200 placeholder-gray-500 backdrop-blur-sm transition-all duration-200 focus:border-indigo-500/50 focus:outline-none focus:ring-1 focus:ring-indigo-500/30;
+    @apply w-full rounded-xl border border-surface-border bg-surface p-4 text-gray-200 placeholder-gray-500 backdrop-blur-sm transition-all duration-200 focus:border-orange-500/50 focus:outline-none focus:ring-1 focus:ring-orange-500/30;
   }
 }
 
